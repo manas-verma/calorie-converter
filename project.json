@@ -1,0 +1,14 @@
+{
+    "title":"Calorie Converter",
+    "description":"This template can be used to create a basic KinomaJS application .",
+    "id":"calorie-converter.project.kinoma.marvell.com",
+    "tags":[
+        "emptySample"
+    ],
+    "Create":{
+        "main":"main"
+    },
+    "Element":{
+        "main":"main"
+    }
+}

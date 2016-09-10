@@ -1,0 +1,1 @@
+export default class Item {	constructor(name, cals) {		this.name = name;		this.cals = cals;		this.qty = 1.00;		this.total_cals = cals;	}	inputQty(qty) {		this.qty = qty.toFixed(2);		this.total_cals = this.cals * this.qty	}	updateQty(cals) {		this.qty = (cals / this.cals).toFixed(2);		this.total_cals = cals	}};
